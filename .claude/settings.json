@@ -1,19 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git push *)",
-      "Bash(git -C /Users/tyronehenderson/Desktop/repos/etch-a-sketch status)",
-      "Bash(git -C /Users/tyronehenderson/Desktop/repos/etch-a-sketch remote -v)",
-      "Bash(git -C /Users/tyronehenderson/Desktop/repos/etch-a-sketch rev-parse --show-toplevel)",
-      "Bash(git init *)",
-      "Bash(git -C /Users/tyronehenderson/Desktop/repos/etch-a-sketch remote add origin https://github.com/THen25/etch-a-sketch.git)",
-      "Bash(git -C /Users/tyronehenderson/Desktop/repos/etch-a-sketch ls-remote origin)",
+      "Bash(gh api *)",
+      "Bash(curl -s \"https://api.github.com/repos/THen25/etch-a-sketch/pages\")",
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
-      "Bash(git -C /Users/tyronehenderson/Desktop/repos/etch-a-sketch push --force -u origin main)"
-    ],
-    "additionalDirectories": [
-      "/Users/tyronehenderson/Desktop/repos/etch-a-sketch/etch-a-sketch"
+      "Bash(git push *)"
     ]
   }
 }
